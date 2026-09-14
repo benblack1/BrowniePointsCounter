@@ -121,7 +121,7 @@
                 android:layout_marginTop="6dp"
                 android:fontFamily="sans-serif-black"
                 android:includeFontPadding="false"
-                android:text="0"
+                android:text="@string/quantity_initial_text"
                 android:textColor="@color/counter_text_color"
                 android:textSize="80sp" />
         </LinearLayout>
@@ -149,7 +149,7 @@
             android:layout_marginEnd="8dp"
             android:layout_weight="1"
             android:contentDescription="@string/btn_decrease_desc"
-            android:text="-"
+            android:text="@string/btn_decrease_text"
             android:textColor="@color/button_decrease_text"
             android:textSize="32sp"
             app:backgroundTint="@color/button_decrease_bg"
@@ -164,7 +164,7 @@
             android:layout_marginStart="8dp"
             android:layout_weight="1"
             android:contentDescription="@string/btn_increase_desc"
-            android:text="+"
+            android:text="@string/btn_increase_text"
             android:textColor="@color/button_increase_text"
             android:textSize="32sp"
             app:backgroundTint="@color/button_increase_bg"

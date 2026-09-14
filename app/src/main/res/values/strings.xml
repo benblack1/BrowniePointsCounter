@@ -4,6 +4,9 @@
     <string name="btn_increase_desc">Add brownie point</string>
     <string name="btn_decrease_desc">Subtract brownie point</string>
     <string name="btn_reset_desc">Reset brownie counter</string>
+    <string name="btn_increase_text">+</string>
+    <string name="btn_decrease_text">-</string>
+    <string name="quantity_initial_text">0</string>
     <string name="reset_dialog_title">Reset Points?</string>
     <string name="reset_dialog_message">Are you sure you want to reset your brownie points back to 0?</string>
     <string name="reset_confirm">Reset</string>

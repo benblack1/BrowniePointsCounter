@@ -19,13 +19,10 @@
         <item name="colorOnSurfaceVariant">@color/md_theme_onSurfaceVariant</item>
         <item name="colorOutline">@color/md_theme_outline</item>
 
-        <!-- Edge-to-edge transparent bars; light (dark icon) mode for light background.
-             windowLightStatusBar silently ignored on API < 23,
-             windowLightNavigationBar silently ignored on API < 27. -->
+        <!-- Edge-to-edge transparent system bars. Icon appearance is set in
+             MainActivity via WindowInsetsControllerCompat (handles API compat). -->
         <item name="android:statusBarColor">@android:color/transparent</item>
         <item name="android:navigationBarColor">@android:color/transparent</item>
-        <item name="android:windowLightStatusBar">true</item>
-        <item name="android:windowLightNavigationBar">true</item>
     </style>
 </resources>
 

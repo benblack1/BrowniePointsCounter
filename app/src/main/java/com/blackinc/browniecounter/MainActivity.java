@@ -1,6 +1,7 @@
 package com.blackinc.browniecounter;
 
 import android.content.SharedPreferences;
+import android.content.res.Configuration;
 import android.os.Bundle;
 import android.view.HapticFeedbackConstants;
 import android.view.View;
@@ -13,6 +14,7 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowCompat;
 import androidx.core.view.WindowInsetsCompat;
+import androidx.core.view.WindowInsetsControllerCompat;
 
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 
@@ -34,6 +36,15 @@ public class MainActivity extends AppCompatActivity {
         // Enable edge-to-edge display
         WindowCompat.setDecorFitsSystemWindows(getWindow(), false);
         setContentView(R.layout.activity_main);
+
+        // Set system bar icon appearance (dark icons on light bg, light icons on dark bg).
+        // WindowInsetsControllerCompat handles API compatibility internally.
+        boolean isNightMode = (getResources().getConfiguration().uiMode
+                & Configuration.UI_MODE_NIGHT_MASK) == Configuration.UI_MODE_NIGHT_YES;
+        WindowInsetsControllerCompat insetsController =
+                WindowCompat.getInsetsController(getWindow(), getWindow().getDecorView());
+        insetsController.setAppearanceLightStatusBars(!isNightMode);
+        insetsController.setAppearanceLightNavigationBars(!isNightMode);
 
         // Bind views
         View root = findViewById(R.id.main_root);
