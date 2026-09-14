@@ -1,6 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#009688</color>
-    <color name="colorPrimaryDark">#00897b</color>
-    <color name="colorAccent">#FF4081</color>
+    <!-- Material 3 Brownie Warm Theme Colors (Light) -->
+    <color name="md_theme_primary">#6D3915</color>
+    <color name="md_theme_onPrimary">#FFFFFF</color>
+    <color name="md_theme_primaryContainer">#FFDCC5</color>
+    <color name="md_theme_onPrimaryContainer">#2F1500</color>
+    <color name="md_theme_secondary">#755848</color>
+    <color name="md_theme_onSecondary">#FFFFFF</color>
+    <color name="md_theme_secondaryContainer">#FFDCC7</color>
+    <color name="md_theme_onSecondaryContainer">#2B170B</color>
+    <color name="md_theme_tertiary">#615E2E</color>
+    <color name="md_theme_onTertiary">#FFFFFF</color>
+    <color name="md_theme_background">#FFF8F5</color>
+    <color name="md_theme_onBackground">#221A15</color>
+    <color name="md_theme_surface">#FFF8F5</color>
+    <color name="md_theme_onSurface">#221A15</color>
+    <color name="md_theme_surfaceVariant">#F3DFD2</color>
+    <color name="md_theme_onSurfaceVariant">#51443B</color>
+    <color name="md_theme_outline">#84746A</color>
+    <color name="md_theme_outlineVariant">#D6C3B7</color>
+
+    <color name="counter_card_bg">#FAF0E8</color>
+    <color name="counter_text_color">#221A15</color>
+    <color name="counter_label_color">#755848</color>
+    <color name="button_decrease_bg">#EBD8CD</color>
+    <color name="button_decrease_text">#51443B</color>
+    <color name="button_increase_bg">#6D3915</color>
+    <color name="button_increase_text">#FFFFFF</color>
+
+    <color name="ic_launcher_background">#FFFFFF</color>
 </resources>
